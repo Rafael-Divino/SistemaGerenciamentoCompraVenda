@@ -16,7 +16,6 @@ public class ClienteDTO {
     private String clf_Email;
     private String clf_Telefone;
     private int clf_end_Codigo;
-    private int teste;
     
 
     public ClienteDTO(String clf_nome, String clf_cpf, String clf_Email, String clf_Telefone, int clf_end_Codigo) {
