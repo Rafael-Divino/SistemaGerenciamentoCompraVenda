@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SistemaGerenciamentoCompraVenda.jnlp">
+  <information>
+    <title>SistemaGerenciamentoCompraVenda</title>
+    <vendor>2830482411018</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SistemaGerenciamentoCompraVenda.jar" size="73838" download="eager" />
+    <jar href="lib\lombok.jar" size="2031660" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.18 1.jar" size="2330539" download="eager" />
+  </resources>
+  <application-desc main-class="sistemagerenciamentocompravenda.SistemaGerenciamentoCompraVenda"  name="SistemaGerenciamentoCompraVenda" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
